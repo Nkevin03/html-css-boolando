@@ -39,7 +39,7 @@
     color: red;
 }
 
-.product span:last-child{
+.through{
     color: grey;
     text-decoration: line-through;
 }
@@ -163,4 +163,36 @@
     width: 30px;
     right: 0px;
     top: 10px;
+}
+
+.discount{
+    position: absolute;
+    bottom: 60px;
+    background: red;
+    color: #fff;
+    padding: 5px;
+    font-size: 13px;
+}
+
+.product:hover .heart{
+    color: #ff0000;
+}
+
+.descripion{
+    position: absolute;
+    bottom: 60px;
+    font-size: 13px;
+    color: #fff;
+    background: green;
+    padding: 5px;
+    left: 40px;
+}
+
+.descripions{
+    position: absolute;
+    bottom: 60px;
+    font-size: 13px;
+    color: #fff;
+    background: green;
+    padding: 5px;
 }
