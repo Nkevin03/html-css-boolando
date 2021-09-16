@@ -44,6 +44,114 @@
     text-decoration: line-through;
 }
 
+/* Hover effect */
+
+.image1 {
+    display: block;
+}
+
+.image1b{
+    display: none;
+}
+
+.product:hover .image1{
+    display: none;
+}
+
+.product:hover .image1b{
+    display: block;
+}
+
+/* Image2 */
+
+.image2 {
+    display: block;
+}
+
+.image2b{
+    display: none;
+}
+
+.product:hover .image2{
+    display: none;
+}
+
+.product:hover .image2b{
+    display: block;
+}
+
+/* Image3 */
+
+.image3 {
+    display: block;
+}
+
+.image3b{
+    display: none;
+}
+
+.product:hover .image3{
+    display: none;
+}
+
+.product:hover .image3b{
+    display: block;
+}
+
+/* Image4 */
+
+.image4 {
+    display: block;
+}
+
+.image4b{
+    display: none;
+}
+
+.product:hover .image4{
+    display: none;
+}
+
+.product:hover .image4b{
+    display: block;
+}
+
+/* Image5 */
+
+.image5 {
+    display: block;
+}
+
+.image5b{
+    display: none;
+}
+
+.product:hover .image5{
+    display: none;
+}
+
+.product:hover .image5b{
+    display: block;
+}
+
+/* Image6 */
+
+.image6 {
+    display: block;
+}
+
+.image6b{
+    display: none;
+}
+
+.product:hover .image6{
+    display: none;
+}
+
+.product:hover .image6b{
+    display: block;
+}
+
 /* Symbol */
 
 .heart{
