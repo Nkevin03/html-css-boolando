@@ -178,7 +178,7 @@
     color: #ff0000;
 }
 
-.descripion{
+.description{
     position: absolute;
     bottom: 60px;
     font-size: 13px;
@@ -195,4 +195,35 @@
     color: #fff;
     background: green;
     padding: 5px;
+}
+
+/* Bonus */
+
+.discount{
+    display: none;
+}
+
+.description{
+    display: none;
+}
+
+.descripions{
+    display: none;
+}
+
+.product:hover .discount{
+    display: block;
+}
+
+.product:hover .description{
+    display: block;
+}
+
+.product:hover .descripions{
+    display: block;
+}
+
+.product::before{
+    content: '';
+    background-color: #ff0000;
 }
